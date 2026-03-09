@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274d6716a29b4ac7971cd9a53f09c611, type: 3}
+  m_Name: Steel
+  m_EditorClassIdentifier: 
+  index: 2
+  constructionName: Construction 2
+  constructionIcon: {fileID: 21300000, guid: 5cba354dcaa12794f97531cfdf5b9bee, type: 3}
+  materialType: 1
+  price: 100000
+  unlockSeconds: 10
+  buildPrefab: {fileID: 744299978936176272, guid: fe4aed5313df54baa83f8a08f1cd5b04, type: 3}
+  constructionPrefab: {fileID: 5081378640111839596, guid: cfcea1bef252c491e8f667d61a07da44, type: 3}
