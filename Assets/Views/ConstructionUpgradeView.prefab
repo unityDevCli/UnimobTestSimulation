@@ -89,7 +89,6 @@ GameObject:
   - component: {fileID: 2997557034086638700}
   - component: {fileID: 6222607886391610026}
   - component: {fileID: 441406178073637496}
-  - component: {fileID: 3396896366413797633}
   m_Layer: 5
   m_Name: ConstructionUpgradeView
   m_TagString: Untagged
@@ -170,26 +169,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 32
---- !u!114 &3396896366413797633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093446925927276690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e89d483d5d754245b8a5b63d18ff1376, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  txtCurrentLevel: {fileID: 5846382487808202088}
-  txtProduction: {fileID: 6415197139508540439}
-  txtCurrentProfit: {fileID: 8531823355435579015}
-  txtTimer: {fileID: 4730015122797309853}
-  txtPrice: {fileID: 8208875674965538370}
-  sliderLevelProgress: {fileID: 4417621202779080690}
-  maxObject: {fileID: 5274094759427081211}
-  normalObject: {fileID: 2970524630810569220}
 --- !u!1 &1477302191399050860
 GameObject:
   m_ObjectHideFlags: 0

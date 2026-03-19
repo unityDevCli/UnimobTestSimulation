@@ -454,7 +454,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6540654423376592508}
-  - component: {fileID: 6585737268885410481}
   m_Layer: 0
   m_Name: Construction
   m_TagString: Untagged
@@ -482,25 +481,6 @@ Transform:
   - {fileID: 2565548378552595683}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6585737268885410481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5081378640111839596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89fbfacb4ee1470084be16b9544d4647, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deliveryPoint: {fileID: 4787423338733532964}
-  buildPoint: {fileID: 2565548378552595683}
-  infoPoint: {fileID: 2565548378552595683}
-  fruitPoints:
-  - {fileID: 1302891246214687470}
-  - {fileID: 1302891244408951080}
-  - {fileID: 1302891245176948397}
 --- !u!1 &5823776604973698877
 GameObject:
   m_ObjectHideFlags: 0

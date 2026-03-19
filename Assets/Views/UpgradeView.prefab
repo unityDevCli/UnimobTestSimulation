@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2997557034086638700}
   - component: {fileID: 6222607886391610026}
   - component: {fileID: 441406178073637496}
-  - component: {fileID: 492494750737199399}
   m_Layer: 5
   m_Name: UpgradeView
   m_TagString: Untagged
@@ -93,21 +92,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 32
---- !u!114 &492494750737199399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093446925927276690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d55c9427802455fa7bbe73577a08994, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  container: {fileID: 4405951899791727024}
-  itemPrefab: {fileID: -5038891238973711167, guid: 37a1f9ee4140b40c5b9c020a7137b0c1, type: 3}
-  btnClose: {fileID: 434146147780046328}
 --- !u!1 &2244424146237259503
 GameObject:
   m_ObjectHideFlags: 0

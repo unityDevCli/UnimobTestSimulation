@@ -1300,7 +1300,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6540654423376592508}
-  - component: {fileID: 1097323019421428971}
   m_Layer: 0
   m_Name: Delivery
   m_TagString: Untagged
@@ -1325,23 +1324,6 @@ Transform:
   - {fileID: 8703180682405025927}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1097323019421428971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5081378640111839596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9c4192ae8c49f59e0413f174350e4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1677055900559989277}
-  tomatoTransForms:
-  - {fileID: 6189031941684784857}
-  - {fileID: 2134864908244946697}
-  - {fileID: 6514167691253798742}
 --- !u!1 &5693225996506118139
 GameObject:
   m_ObjectHideFlags: 0
