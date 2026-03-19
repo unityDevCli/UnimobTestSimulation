@@ -1,9 +1,10 @@
-using UnityEngine;
 
 namespace Farms.Entities
 {
-    public class ConstructionBox : MonoBehaviour
+    public class ConstructionBox
     {
-        
+        public int constructionId;
+        public bool isBuilt;
+        public Plant currentPlant;
     }
 }

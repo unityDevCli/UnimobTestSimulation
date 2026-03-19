@@ -1,9 +1,10 @@
-using UnityEngine;
 
 namespace Farms.Entities
 {
-    public class HarvestBundle : MonoBehaviour
+    public class HarvestBundle
     {
-        
+        public int plantId;
+        public int fruitAmount;
+        public float unitPriceSnapshot;
     }
 }
