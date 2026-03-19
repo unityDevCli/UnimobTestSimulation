@@ -1,3 +1,5 @@
+using Farms.Core;
+
 namespace Farms.Systems
 {
     public class EconomySystem
@@ -7,6 +9,7 @@ namespace Farms.Systems
         public void AddGold(float amount)
         {
             Gold += amount;
+            GameEvents.OnGoldChanged?.Invoke(Gold);
         }
 
         public bool Spend(float amount)

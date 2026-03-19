@@ -1,9 +1,10 @@
+using System;
 using UnityEngine;
 
 namespace Farms.Core
 {
-    public class EventBus : MonoBehaviour
+    public static class EventBus
     {
-        
+       
     }
 }
